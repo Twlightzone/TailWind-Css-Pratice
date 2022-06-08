@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import SideBar from './SideBar';
 
 function App() {
   return (
-  <p className="text-center">
-
-  </p>
+    <div className="flex">
+      <SideBar />
+    </div>
   );
 }
 
